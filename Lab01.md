@@ -27,21 +27,24 @@ My Command Line Shell is: Terminal
 
 ### Navigating My OS on the Command Line
 
-1. Create a directory named `DirA`:
-2. Create a directory named `Dir B`:
-3. Go into `DirA`:
-4. Go into `Dir B` from `DirA`:
-5. Return to your user's home directory:
-6. Create a file named `test.txt`:
-7. Move the file named `test.txt` into `DirA`:
+1. Create a directory named `DirA`: mkdir DirA
+2. Create a directory named `Dir B`: mkdir DirB
+3. Go into `DirA`: cd DirA
+4. Go into `Dir B` from `DirA`:cd DirB
+5. Return to your user's home directory: cd ~
+6. Create a file named `test.txt`: vim test.txt
+7. Move the file named `test.txt` into `DirA`: mv test.txt ~/DirA/
 8. Contents of `test.txt`:
 ```
-Put your words here
+This is a new message
 ```
-9. Make a copy of `test.txt` named `copy.txt` in `DirA`:
-10. View the contents of `DirA`: 
-11. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:
+9. Make a copy of `test.txt` named `copy.txt` in `DirA`:cp test.txt ~/DirA/copy.txt
+10. View the contents of `DirA`: ls DirA
+11. Make a copy of `test.txt` in `Dir B` named `fodder.txt`: cp test.txt ~/DirB/fooder.txt
+
 12. Delete / remove both `fodder.txt` AND `Dir B`:
+- rm ~/DirB/fooder.txt
+- rmdir ~/DirB
 
 ## Citations
 
